@@ -1,8 +1,4 @@
 body {
-  font-family: 'Merriweather', sans-serif;
-}
-
-body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,14 +9,14 @@ article {
 }
 
 h1{
-  font-family: 'Arvo', 900 ;
+  font-family: 'Alice';
   margin-top: 80px;
-  font-size: 75px;
-  font-weight: 900;
+  font-size: 135px;
+  font-weight: regular;
 }
 
 h2{
-  font-family: 'Merriweather', bold;
+  font-family: 'AthelasRegular';
   margin-top: 45px;
   font-size: 40px;
   font-weight: bold;
@@ -32,10 +28,10 @@ h1 + h2 {
 }
 
 p {
-  font-family: 'Merriweather', light;
+  font-family: 'AthelasRegular';
   font-size: 30px;
   line-height: 40px;
-  font-weight: light;
+  font-weight: regular;
   }
 
 p + p {
@@ -50,14 +46,15 @@ h2 + p {
 }
 
 h2 + ul {
-  font-family: 'Merriweather', light;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 ul {
+  font-family: 'AthelasRegular';
   font-size: 30px;
   line-height: 34px;
+  font-weight: regular;
 }
 
 p + ul {
@@ -69,6 +66,7 @@ ul + p {
 }
 
 li {
+  font-family: 'AthelasRegular';
   margin: 17px 0 17px 30px;
   list-style-type: none;
 }
@@ -78,7 +76,8 @@ p {
 }
 
 blockquote {
-    margin: 1.5em 10px;
+  font-family: 'AthelasRegular';
+  margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
 
