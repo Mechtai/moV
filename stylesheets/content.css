@@ -8,52 +8,97 @@ article {
   margin: 0 auto;
 }
 
+
 h1{
-  font-family: 'Alice';
-  margin-top: 80px;
-  font-size: 135px;
+  font-family: 'Arvo';
+  margin-top: 85px;
+  margin-bottom: 50x;
+  font-size: 150px;
   font-weight: regular;
 }
 
-h2{
-  font-family: 'AthelasRegular';
-  margin-top: 45px;
-  font-size: 40px;
+h2 {
+  font-family: 'Merriweather';
+  margin-top: 65px;
+  margin-bottom: 35px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  margin-top: 30px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 h1 + h2 {
-  line-height: 60px;
-  margin-top: 53px;
+  line-height: 50px;
+  margin-top: 80px;
+}
+
+h2 + h3 {
+  line-height: 50px;
+  margin-top: 2px;
+}
+
+h3 + p{
+  line-height: 50px;
+  margin-top: 15px;
+}
+h3 + p + p{
+  line-height: 50px;
+  margin-top: 15px;
+}
+
+h2 + p {
+  line-height: 48px;
+  margin-bottom: 30px;
 }
 
 p {
-  font-family: 'AthelasRegular';
+  font-family: 'Merriweather';
   font-size: 30px;
-  line-height: 40px;
+  line-height: 48px;
   font-weight: regular;
   }
 
 p + p {
-  line-height: 40px;
-  margin-top: 30px;
+  line-height: 48px;
+  margin-top: 25px;
   margin-bottom: 15px;
 }
-
-h2 + p {
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
+p + p + p{
+    line-height: 48px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
 
 h2 + ul {
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
+img + h2{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+h2 + img {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+img + p {
+
+  margin-bottom: 15px;
+}
+p + img {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
 ul {
-  font-family: 'AthelasRegular';
+  font-family: 'Merriweather';
   font-size: 30px;
-  line-height: 34px;
+  line-height: 42px;
   font-weight: regular;
 }
 
@@ -66,22 +111,18 @@ ul + p {
 }
 
 li {
-  font-family: 'AthelasRegular';
-  margin: 17px 0 17px 30px;
-  list-style-type: none;
+  margin: 22px 32px 17px;
+  list-style-type: disc;
 }
 
-p {
-  margin-bottom: 33px;
-}
-
-blockquote {
+p + blockquote {
   font-family: 'AthelasRegular';
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 25px 0px 17px;
+
+  font-size: 40px;
 }
 
 .my-bold-font {
   color: black;
-  font-weight: bold;
+  font-weight: regular;
 }
